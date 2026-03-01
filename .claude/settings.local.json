@@ -5,7 +5,12 @@
       "Bash(npm run build:*)",
       "Bash(git init:*)",
       "Bash(git add:*)",
-      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: Date & Time Calculator App\n\n- Next.js 14 with TypeScript and Tailwind CSS\n- Multi-color theme system with 15+ themes \\(light & dark\\)\n- Sticky header with search and category navigation\n- Implemented calculators:\n  - Date Duration Calculator\n  - Age Calculator\n  - Add/Subtract Days Calculator\n  - Business Days Calculator\n- Responsive design with glass morphism UI\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: Date & Time Calculator App\n\n- Next.js 14 with TypeScript and Tailwind CSS\n- Multi-color theme system with 15+ themes \\(light & dark\\)\n- Sticky header with search and category navigation\n- Implemented calculators:\n  - Date Duration Calculator\n  - Age Calculator\n  - Add/Subtract Days Calculator\n  - Business Days Calculator\n- Responsive design with glass morphism UI\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(git commit:*)"
     ]
   }
 }

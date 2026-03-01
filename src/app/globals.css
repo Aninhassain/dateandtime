@@ -32,6 +32,25 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/* Ensure text inherits theme color */
+h1, h2, h3, h4, h5, h6, p, span, a, label, li {
+  color: inherit;
+}
+
+/* Force light text in dark themes */
+[data-theme-type="dark"] {
+  color: var(--color-text);
+}
+
+[data-theme-type="dark"] h1,
+[data-theme-type="dark"] h2,
+[data-theme-type="dark"] h3,
+[data-theme-type="dark"] h4,
+[data-theme-type="dark"] h5,
+[data-theme-type="dark"] h6 {
+  color: var(--color-text);
+}
+
 /* Theme Colors */
 .text-theme-primary {
   color: var(--color-primary);

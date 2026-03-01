@@ -206,14 +206,14 @@ export const themes: Theme[] = [
     id: "lofi",
     type: "dark",
     colors: {
-      primary: "#0d0d0d",
-      secondary: "#1a1a1a",
-      accent: "#262626",
+      primary: "#808080",
+      secondary: "#a0a0a0",
+      accent: "#c0c0c0",
       background: "#0d0d0d",
       surface: "#171717",
       text: "#ffffff",
       textMuted: "#a3a3a3",
-      border: "#262626",
+      border: "#333333",
     },
   },
   {
