@@ -20,6 +20,11 @@ import {
   Heart,
   Cake,
   ChevronDown,
+  Play,
+  Flower2,
+  PartyPopper,
+  Code,
+  Sparkles,
 } from "lucide-react";
 
 // Calculator data organized by category
@@ -102,6 +107,61 @@ const calculatorCategories = [
         description: "Calculate total hours between two times",
         path: "/hours",
         icon: Hourglass,
+        color: "primary",
+      },
+    ],
+  },
+  {
+    title: "Timers",
+    description: "Stopwatch, timers, and countdown tools",
+    calculators: [
+      {
+        name: "Stopwatch",
+        description: "Simple and accurate online stopwatch",
+        path: "/stopwatch",
+        icon: Play,
+        color: "primary",
+      },
+      {
+        name: "Timer",
+        description: "Set a countdown timer with alerts",
+        path: "/timer",
+        icon: Timer,
+        color: "secondary",
+      },
+      {
+        name: "Countdown to Any Date",
+        description: "Create a countdown to any future date",
+        path: "/countdown",
+        icon: Hourglass,
+        color: "accent",
+      },
+      {
+        name: "Spring Countdown",
+        description: "Countdown to the first day of spring",
+        path: "/spring-countdown",
+        icon: Flower2,
+        color: "primary",
+      },
+      {
+        name: "Easter Countdown",
+        description: "Countdown to Easter Sunday",
+        path: "/easter-countdown",
+        icon: Sparkles,
+        color: "secondary",
+      },
+      {
+        name: "New Year Countdown",
+        description: "Countdown to New Year's Day",
+        path: "/new-year-countdown",
+        icon: PartyPopper,
+        color: "accent",
+      },
+      {
+        name: "Countdown for Your Site",
+        description: "Embeddable countdown widget for your website",
+        path: "/countdown-widget",
+        icon: Code,
         color: "primary",
       },
     ],
