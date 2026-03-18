@@ -44,6 +44,8 @@ import {
   Hash,
   HelpCircle,
   ScrollText,
+  User,
+  CircleDot,
 } from "lucide-react";
 
 // Calculator data organized by category
@@ -293,6 +295,47 @@ const calculatorCategories = [
         path: "/timezone-news",
         icon: Newspaper,
         color: "accent",
+      },
+    ],
+  },
+  {
+    title: "World Clock",
+    description: "View current time around the world",
+    calculators: [
+      {
+        name: "Main World Clock",
+        description: "View current time in major cities worldwide",
+        path: "/world-clock",
+        icon: Globe,
+        color: "primary",
+      },
+      {
+        name: "Extended World Clock",
+        description: "Comprehensive world clock with all time zones",
+        path: "/extended-world-clock",
+        icon: Globe2,
+        color: "secondary",
+      },
+      {
+        name: "Personal World Clock",
+        description: "Create your own custom world clock with favorite cities",
+        path: "/personal-world-clock",
+        icon: User,
+        color: "accent",
+      },
+      {
+        name: "Clock for Your Site",
+        description: "Embeddable clock widget for your website",
+        path: "/clock-widget",
+        icon: Code,
+        color: "primary",
+      },
+      {
+        name: "UTC Time",
+        description: "Current Coordinated Universal Time (UTC)",
+        path: "/utc-time",
+        icon: CircleDot,
+        color: "secondary",
       },
     ],
   },
