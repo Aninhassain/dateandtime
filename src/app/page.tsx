@@ -560,13 +560,6 @@ export default function Home() {
                 </div>
               ))}
             </div>
-
-            {/* Footer */}
-            <footer className="text-center py-12 mt-12 border-t border-theme-border">
-              <p className="text-sm text-theme-text-muted">
-                Built with precision for all your date and time calculations
-              </p>
-            </footer>
           </div>
         </div>
       </div>
